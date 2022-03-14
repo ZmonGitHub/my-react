@@ -10,6 +10,7 @@ import Invoices from "./pages/invoices/invoices.jsx";
 import Interview from "./pages/interview/index.jsx";
 import ReactInterview from "./pages/interview/react.jsx"
 import ComplexRepeated from "./pages/interview/complexRepeated.jsx"
+import SEO from "./pages/interview/seo.jsx"
 import Home from "./pages/home/index.jsx"
 import { 
   BrowserRouter,  
@@ -29,6 +30,7 @@ ReactDOM.render(
           <Route path="interveiw" element={<Interview/>} />
           <Route path="/interveiw/react" element={<ReactInterview/>} />
           <Route path="/interveiw/complexRepeated" element={<ComplexRepeated/>} />
+          <Route path="/interveiw/seo" element={<SEO/>} />
           <Route
             path="*"
             element={

@@ -93,7 +93,8 @@ export default class SiderDemo extends React.Component {
           children:[
              {key:700,to:"/interveiw",name:"Interveiw"},
              {key:701,to:"/interveiw/react",name:"InterveiwReact"}, 
-             {key:702,to:"/interveiw/complexRepeated",name:"complexRepeated"} 
+             {key:702,to:"/interveiw/complexRepeated",name:"complexRepeated"}, 
+             {key:703,to:"/interveiw/seo",name:"seo"}, 
            ]
         }
     ]
